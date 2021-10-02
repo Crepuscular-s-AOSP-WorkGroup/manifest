@@ -43,6 +43,9 @@
   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="custom" revision="11.0" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" remote="custom" />
 
+    <!-- Frameworks -->
+  <project path="frameworks/base" name="frameworks_base" remote="custom" revision="11.0" />
+
     <!-- System -->
   <project path="system/bt" name="system_bt" remote="custom" />
   <project path="system/core" name="system_core" remote="custom" />
