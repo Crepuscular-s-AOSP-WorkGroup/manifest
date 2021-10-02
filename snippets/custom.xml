@@ -44,7 +44,15 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" remote="custom" />
 
     <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="custom" revision="11.0" />
   <project path="frameworks/base" name="frameworks_base" remote="custom" revision="11.0" />
+  <project path="frameworks/native" name="frameworks_native" remote="custom" revision="11.0" />
+  
+    <!-- Hardware -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="custom" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="custom" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="custom" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="custom" />
 
     <!-- System -->
   <project path="system/bt" name="system_bt" remote="custom" />
