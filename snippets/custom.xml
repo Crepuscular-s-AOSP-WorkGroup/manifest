@@ -49,4 +49,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="custom" />
   <project path="system/vold" name="system_vold" remote="custom" /> 
 
+    <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
 </manifest>
