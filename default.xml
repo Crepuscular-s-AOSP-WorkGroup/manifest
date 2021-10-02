@@ -843,6 +843,6 @@
   <include name="snippets/pixel.xml" />
 
   <!-- Add Crepusucular's AOSP Specific repos -->
-  <include name="snippets/aosp.xml" />
+  <include name="snippets/custom.xml" />
 
 </manifest>
