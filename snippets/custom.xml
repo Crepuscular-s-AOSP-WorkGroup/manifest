@@ -9,6 +9,7 @@
             revision="11.0"/>
   
     <!-- Custom Build System-->
+  <project path="bionic" name="bionic" remote="custom" revision="11.0" />
   <project path="build/make" name="build" remote="custom" revision="11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
