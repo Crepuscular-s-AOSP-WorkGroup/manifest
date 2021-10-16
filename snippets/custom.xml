@@ -56,7 +56,7 @@
   
     <!-- Hardware -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="custom" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="custom" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="custom" revision="11.0" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="custom" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="custom" />
 
