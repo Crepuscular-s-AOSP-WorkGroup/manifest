@@ -41,7 +41,6 @@
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="custom" revision="11.0" />
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="custom" revision="11.0" />
   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="custom" revision="11.0" />
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" remote="custom" revision="11.0" />
 
     <!-- External -->
   <project path="external/tinycompress" name="external_tinycompress" remote="custom" revision="12.0" /> 
