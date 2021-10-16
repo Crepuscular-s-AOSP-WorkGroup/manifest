@@ -1091,10 +1091,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-
-  <!-- Remove unused AOSP repos -->
-  <include name="snippets/remove.xml" />
-
+  
   <!-- Add some LineageOS repos -->
   <include name="snippets/lineage.xml" />
 
