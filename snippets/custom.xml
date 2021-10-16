@@ -24,7 +24,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="custom"/>
   <project path="vendor/aosp" name="vendor_aosp" remote="custom" />
   
     <!-- CodeAurora additions -->
