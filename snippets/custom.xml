@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github" 
+            fetch="https://github.com" />
+
+  <remote name="custom"
+            fetch="https://github.com/Crepuscular-s-AOSP-WorkGroup" 
+            revision="12.0"/>
+  
+    <!-- Custom Build System-->
+  <project path="bionic" name="bionic" remote="custom" revision="12.0" />
+  <project path="build/make" name="build" remote="custom" revision="12.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/blueprint" name="build_blueprint" remote="custom" revision="12.0" />
+  <project path="build/soong" name="build_soong" remote="custom" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="vendor/aosp" name="vendor_aosp" remote="custom" />
+  
+    <!-- CodeAurora additions -->
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="custom" revision="11.0">
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="custom" revision="11.0" />
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="custom" revision="11.0" />
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="custom" revision="11.0" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" remote="custom" revision="11.0" />
+
+    <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="custom" revision="12.0" />
+  <project path="frameworks/base" name="frameworks_base" remote="custom" revision="12.0" />
+  <project path="frameworks/native" name="frameworks_native" remote="custom" revision="12.0" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="custom" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="custom" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="custom" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="custom" />  
+  
+    <!-- Hardware -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="custom" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="custom" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="custom" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="custom" />
+
+    <!-- System -->
+  <project path="system/bt" name="system_bt" remote="custom" />
+  <project path="system/core" name="system_core" remote="custom" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="custom" />
+  <project path="system/vold" name="system_vold" remote="custom" /> 
+
+    <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
+</manifest>
