@@ -43,6 +43,9 @@
   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="custom" revision="11.0" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" remote="custom" revision="11.0" />
 
+    <!-- External -->
+  <project path="external/tinycompress" name="external_tinycompress" remote="custom" revision="12.0" /> 
+
     <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="custom" revision="12.0" />
   <project path="frameworks/base" name="frameworks_base" remote="custom" revision="12.0" />
@@ -59,6 +62,7 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="custom" />
 
     <!-- System -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="custom" />
   <project path="system/bt" name="system_bt" remote="custom" />
   <project path="system/core" name="system_core" remote="custom" />
   <project path="system/sepolicy" name="system_sepolicy" remote="custom" />
