@@ -1094,12 +1094,6 @@
 
   <!-- Add some ArrowOS repos -->
   <include name="snippets/arrow.xml" />
-  
-  <!-- Add some LineageOS repos -->
-  <include name="snippets/lineage.xml" />
-
-  <!-- Add all PixelExperience repos -->
-  <include name="snippets/pixel.xml" />
 
   <!-- Add Crepusucular's AOSP Specific repos -->
   <include name="snippets/custom.xml" />
