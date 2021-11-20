@@ -39,8 +39,8 @@
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="custom" revision="12.0" />
-  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="custom" revision="12.0" />
-  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="custom" revision="12.0" />
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-R_display" remote="pixel" revision="twelve" />
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-R_media" remote="pixel" revision="twelve" />
 
     <!-- External -->
   <project path="external/tinycompress" name="external_tinycompress" remote="custom" revision="12.0" /> 
