@@ -23,6 +23,9 @@
     <project path="hardware/qcom-caf/vr" name="hardware_qcom-caf_vr" remote="pixel" />
     <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pixel" />
 
+    <!-- Package repos -->
+    <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
+
     <!-- Vendor repos - NXP -->
     <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="pixel" />
     <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="pixel" />
