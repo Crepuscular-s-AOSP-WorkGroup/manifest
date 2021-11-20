@@ -1092,8 +1092,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Add some ArrowOS repos -->
-  <include name="snippets/arrow.xml" />
+  <!-- Add some PixelExperience repos -->
+  <include name="snippets/pixel.xml" />
 
   <!-- Add Crepusucular's AOSP Specific repos -->
   <include name="snippets/custom.xml" />
