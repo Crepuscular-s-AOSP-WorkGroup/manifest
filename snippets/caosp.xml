@@ -20,7 +20,10 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
 
-    <project path="build/soong" name="build_soong" remote="caosp" />
+    <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="caosp" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+      </project>
 
     <project path="vendor/aosp" name="vendor_aosp" remote="caosp" />
 
