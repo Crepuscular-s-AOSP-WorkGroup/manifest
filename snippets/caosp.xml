@@ -28,6 +28,9 @@
     <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="caosp" />
     <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="caosp" />
 
+    <project path="external/tinycompress" name="external_tinycompress" remote="caosp" />
+    <project path="external/selinux" name="external_selinux" remote="caosp" />  
+
     <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="caosp" >
         <!-- add guard for AOSP hardware/qcom dir -->
         <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
