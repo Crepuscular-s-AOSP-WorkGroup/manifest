@@ -60,6 +60,8 @@
     <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="caosp" />
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="caosp" />
 
+    <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="caosp" />
+
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
     <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="arrow" />
     <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="arrow" />
