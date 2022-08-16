@@ -51,4 +51,9 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/selinux" />
 
+  <!-- hardware -->
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/interfaces" />
+
 </manifest>
