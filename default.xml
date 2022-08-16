@@ -1171,4 +1171,6 @@
   <!-- Let's remove something -->
   <include name="snippets/remove.xml" />
 
+  <!-- Include Crepuscular Mod -->
+  <include name="snippets/caosp.xml" />
 </manifest>
