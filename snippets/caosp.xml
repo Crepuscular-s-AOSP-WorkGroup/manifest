@@ -31,7 +31,7 @@
     <project path="external/tinycompress" name="external_tinycompress" remote="caosp" />
     <project path="external/selinux" name="external_selinux" remote="caosp" />  
 
-    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="caosp" >
+    <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="caosp" >
         <!-- add guard for AOSP hardware/qcom dir -->
         <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
         <!-- add guards for CAF repositories -->
