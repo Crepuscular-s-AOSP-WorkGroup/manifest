@@ -54,5 +54,6 @@
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
 
 </manifest>
