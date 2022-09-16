@@ -28,9 +28,11 @@
 
     <project path="vendor/aosp" name="vendor_aosp" remote="caosp" />
 
-    <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="caosp" />
-    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="caosp" />
-    <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="caosp" />
+  <!-- device repos -->
+    <project path="device/arrow/sepolicy" name="android_device_arrow_sepolicy" remote="arrow" />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="arrow" />
+    <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="arrow" />
+    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="arrow" />
 
     <project path="external/tinycompress" name="external_tinycompress" remote="caosp" />
     <project path="external/selinux" name="external_selinux" remote="caosp" />  
