@@ -84,6 +84,10 @@
     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="PixelExperience/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="github" clone-depth="1" revision="twelve" />
     <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="PixelExperience/prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="github" clone-depth="1" revision="twelve" />
 
+    <!-- System repo -->
+    <project path="system/core" name="system_core" remote="caosp"/> 
+    <project path="system/vold" name="system_vold" remote="caosp" />
+
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
     <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="arrow" />
     <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="arrow" />
